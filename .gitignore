@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# No - GPU-Z
+GPU-Z.2.43.0.exe
+
+# No - AIDA64
+AIDA64/
