@@ -13,7 +13,7 @@ int main()
 
 	FBEasy::FirebaseDBEasyAdapter testAdapter;
 
-	std::ifstream jsonConfigFile("C:\\SoftwareRepository\\BSFirebaseClient\\Debug\\google-services.json");
+	std::ifstream jsonConfigFile("google-services.json");
 	if (!jsonConfigFile.is_open())
 	{
 		std::cout << "Can't load Firebase JSON config file" << std::endl;
@@ -70,7 +70,7 @@ int main()
 				inputStr,
 				setHandler);
 		}
-		std::getline(std::cin, inputStr);
+		//std::getline(std::cin, inputStr);
 	}
 
 	testAdapter.DisconnectFromFirebase();
